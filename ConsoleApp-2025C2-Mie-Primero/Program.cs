@@ -11,6 +11,16 @@
             p.nombre = "Rodigo";
 
             Console.WriteLine(p.MostrarDatos());
+            Console.ReadKey();
+
+            Alumno a = new Alumno();
+            a.dni = 40123456;
+            a.apellido = "Gonzalez";
+            a.nombre = "Alejandra";
+            a.legajo = 213131;
+            a.materia = "PNT1";
+
+            Console.WriteLine(a.MostrarDatos());
 
         }
     }
